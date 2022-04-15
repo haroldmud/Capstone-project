@@ -1,0 +1,580 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+.headerTop {
+  display: none;
+}
+
+.headerBtm {
+  display: none;
+}
+
+.title h1 {
+  color: rgba(237, 100, 100, 0.616);
+  margin-top: -10px;
+  font-weight: 900;
+  background-image: url(./icon/seduction.jpg);
+  -webkit-background-clip: text;
+}
+
+main {
+  background-image: url(./icon/main-bg.jpg);
+  height: 28rem;
+}
+
+main .fa-solid {
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 25px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+main .main {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 4rem;
+}
+
+.homeLogo {
+  height: 8rem;
+}
+
+.intro {
+  border: solid 2px rgb(255, 255, 255);
+  background-color: rgb(207, 201, 201);
+  width: 60%;
+  margin-top: 20px;
+}
+
+.ft-speakers img {
+  height: 110px;
+  width: 110px;
+}
+
+.intro p {
+  font-size: 14px;
+  font-size: 12px;
+  padding: 10px 10px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.intro .p1 {
+  padding-bottom: 2px;
+}
+
+.timeZone {
+  width: 20rem;
+  color: #272a31;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.timeZone h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.timeZone .p3 {
+  font-size: 10px;
+}
+
+.CreativeCmn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20rem;
+  height: 23rem;
+  color: #272a31;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.CreativeCmn h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.CreativeCmn .p3 {
+  font-size: 10px;
+}
+
+.anchor a {
+  color: #272a31;
+}
+
+.Logo {
+  height: 150px;
+}
+
+.logo-div {
+  border: rgb(112, 112, 112) solid 1px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.line {
+  display: block;
+  width: 40px;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid rgb(255, 82, 82);
+}
+
+.SummitCmn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20rem;
+  height: 40rem;
+  color: #272a31;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.SummitCmn h1 {
+  font-size: 20px;
+}
+
+.image1 {
+  background-image: url(./icon/teacher.jpg);
+  height: 10rem;
+  color: #45474b;
+  background-size: 22rem;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.image2 {
+  background-image: url(./icon/classPic.jpg);
+  height: 10rem;
+  color: #45474b;
+  background-size: 22rem;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.foot-sctn1 {
+  background-color: #272a31;
+}
+
+.foot-title {
+  width: 70px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.foot-ptnr {
+  /* font-weight: 500; */
+  color: #5d5f63;
+}
+
+.foot-border {
+  border-bottom: #ec5242 solid 1px;
+  display: block;
+  justify-items: center;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.net {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 90%;
+}
+
+.net h2 {
+  color: #5d5f63;
+}
+
+.nets {
+  display: flex;
+  justify-items: center;
+  margin: 0 auto;
+  justify-content: space-around;
+  font-size: 15px;
+  width: 70%;
+}
+
+.nets h2 {
+  color: #5d5f63;
+}
+
+.naver {
+  font-weight: 1000;
+}
+
+.ggl {
+  font-weight: 100;
+}
+
+.foot-sctn2 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 0 auto;
+  padding: 5rem 0;
+  width: 60%;
+}
+
+.foot-sctn2 .common {
+  width: 70%;
+}
+
+.foot-sctn2 img {
+  height: 5rem;
+}
+
+footer .footer {
+  display: flex;
+  width: 80%;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .nav_bar {
+    display: none;
+    position: absolute;
+    background-image: url(./icon/next-bg.jpg);
+    height: 45rem;
+    width: 100%;
+  }
+
+  #nav_ul {
+    position: absolute;
+    top: 5%;
+    height: 10rem;
+    list-style: none;
+  }
+
+  .anchor a {
+    color: #272a31;
+  }
+
+  #nav_ul a {
+    color: #ec5242;
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+  #menu-icon2 {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: none;
+    z-index: 10;
+  }
+
+  #menu-icon {
+    padding-top: 20px;
+    font-size: 40px;
+    z-index: 10;
+  }
+
+  .headerTop {
+    display: none;
+  }
+
+  .headerBtm {
+    display: none;
+  }
+
+  main {
+    background-image: url(./icon/main-bg.jpg);
+    height: 33rem;
+  }
+
+  main .fa-solid {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 25px;
+    padding-top: 20px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+
+  main .main {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 4rem;
+  }
+
+  .homeLogo {
+    height: 7rem;
+  }
+
+  footer img {
+    height: 50px;
+    padding-top: 10px;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+
+  .title {
+    width: 98%;
+    padding-top: 3rem;
+    text-align: center;
+  }
+
+  .title i {
+    font-size: 25px;
+    color: red;
+  }
+
+  .title h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .intro {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(207, 201, 201);
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .ft-speakers img {
+    height: 110px;
+    width: 110px;
+  }
+
+  .intro p {
+    font-size: 14px;
+    font-size: 12px;
+    padding: 10px 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .intro .p1 {
+    padding-bottom: 2px;
+  }
+
+  .timeZone {
+    width: 20rem;
+    color: #272a31;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+
+  .timeZone h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .timeZone .p3 {
+    font-size: 10px;
+  }
+
+  .CreativeCmn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20rem;
+    height: 30rem;
+    color: #272a31;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .CreativeCmn h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .CreativeCmn .p3 {
+    font-size: 10px;
+  }
+
+  .Logo {
+    height: 150px;
+  }
+
+  .logo-div {
+    border: rgb(112, 112, 112) solid 1px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .line {
+    display: block;
+    width: 40px;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 82, 82);
+  }
+
+  .SummitCmn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20rem;
+    height: 40rem;
+    color: #272a31;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .SummitCmn h1 {
+    font-size: 20px;
+  }
+
+  .image1 {
+    background-image: url(./icon/redfilt1.jpg);
+    height: 10rem;
+    color: aliceblue;
+    background-size: 22rem;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .image2 {
+    background-image: url(./icon/redfilt2.png);
+    height: 10rem;
+    color: aliceblue;
+    background-size: 22rem;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 30px;
+  }
+
+  .foot-sctn1 {
+    background-color: #272a31;
+  }
+
+  .foot-title {
+    width: 70px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .foot-ptnr {
+    font-size: 20px;
+    font-weight: 500;
+    color: #5d5f63;
+  }
+
+  .foot-border {
+    border-bottom: #ec5242 solid 1px;
+    display: block;
+    justify-items: center;
+    margin: 0 auto;
+    width: 50px;
+  }
+
+  .net {
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+
+    /* height: 12rem; */
+    justify-content: space-around;
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .net h2 {
+    color: #5d5f63;
+  }
+
+  .nets {
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+
+    /* height: 12rem; */
+    justify-content: space-around;
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .nets h2 {
+    color: #5d5f63;
+  }
+
+  .naver {
+    font-weight: 1000;
+  }
+
+  .ggl {
+    font-weight: 100;
+  }
+
+  .foot-sctn2 {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 5rem 0;
+    width: 60%;
+  }
+
+  .foot-sctn2 .common {
+    width: 70%;
+  }
+
+  .foot-sctn2 img {
+    height: 5rem;
+  }
+
+  footer .footer {
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+}
