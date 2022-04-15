@@ -17,7 +17,7 @@
 ## Live Demo (if available)
 
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](https://haroldmud.github.io/Capstone-project/)
 
 ## Getting Started
 
