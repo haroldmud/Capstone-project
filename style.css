@@ -447,7 +447,7 @@ footer {
 
   .principal .menu-icon2,
   .principal .menu-icon {
-    display: none;
+    display: none !important;
   }
 
   .logoSite {
@@ -487,6 +487,7 @@ footer {
     justify-content: flex-end;
     padding: 10px;
     padding-right: 15rem;
+    margin-top: 0;
     background-color: rgb(78, 77, 77);
   }
 
