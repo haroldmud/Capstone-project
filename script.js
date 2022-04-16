@@ -68,7 +68,7 @@ coachesInfo.innerHTML += coachSection;
 
 const show = document.querySelectorAll('.ft-speakers-hdn');
 console.log(show.length);
-more.addEventListener('click', showMore);
+
 function showMore() {
   for (let i = 0; i <= show.length; i++) {
     show[i].style.display = 'flex';
@@ -77,7 +77,6 @@ function showMore() {
   }
 }
 
-less.addEventListener('click', showLess);
 function showLess() {
   for (let i = 0; i <= show.length; i++) {
     show[i].style.display = 'none';
@@ -86,22 +85,40 @@ function showLess() {
   }
 }
 
-const hamburger = document.getElementById('link_menu');
+more.addEventListener('click', showMore);
+
+less.addEventListener('click', showLess);
+
+// const hamburger = document.getElementById('link_menu');
+const html = document.getElementsByTagName('html')[0];
 const navBar = document.getElementById('nav_bar');
 const list = document.getElementById('nav_ul');
 
+const iconMenu = document.querySelector('.menu-icon');
+const iconClose = document.querySelector('.menu-icon2');
+
 function HideNav() {
   console.log('hiden');
-  navBar.style.display = 'none';
-  document.getElementById('menu-icon').style.display = 'flex';
-  document.getElementById('menu-icon2').style.display = 'none';
+  navBar.classList.remove('open');
+  navBar.classList.add('hide');
+  iconMenu.style.display = 'flex';
+  iconMenu.classList.add('active');
+  iconClose.classList.remove('active');
+  html.style.overflow = 'auto';
 }
+
 function showNav() {
   console.log('shown');
-  navBar.style.display = 'flex';
-  document.getElementById('menu-icon').style.display = 'none';
-  document.getElementById('menu-icon2').style.display = 'flex';
+  navBar.classList.remove('hide');
+  navBar.classList.add('open');
+  iconMenu.style.display = 'none';
+  iconMenu.classList.remove('active');
+  iconClose.classList.add('active');
+  html.style.overflow = 'hidden';
 }
+
+iconMenu.addEventListener('click', showNav);
+iconClose.addEventListener('click', HideNav);
 
 function fun() {
   location.reload();
