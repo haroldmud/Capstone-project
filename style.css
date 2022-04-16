@@ -98,6 +98,10 @@ nav a {
   text-align: center;
 }
 
+.pgrm-footer a {
+  color: #d3d3d3;
+}
+
 #nav_ul a {
   color: #ec5242;
   font-size: 30px;
@@ -308,6 +312,13 @@ img {
 
 .pgrm-footer .pgrm_btn {
   display: none;
+}
+
+.pgrm-footer {
+  width: 18rem;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 .ft-speakers-hdn {
