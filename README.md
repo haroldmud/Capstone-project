@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> microverse milestone project
+> This is my microverse capstone project. the topic of this project is about creating a website that's dynamic and interactive, it's a website for an online consulant office of personnal development opened for everybody desiring to be the best version of themselves. 
 
 ## Built With
 
