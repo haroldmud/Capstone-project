@@ -249,6 +249,7 @@ img {
 .pgrm {
   display: flex;
   flex-direction: row;
+  border: solid transparent 1px;
   gap: 10px;
   width: 97%;
   justify-content: center;

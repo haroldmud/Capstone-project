@@ -89,7 +89,6 @@ more.addEventListener('click', showMore);
 
 less.addEventListener('click', showLess);
 
-// const hamburger = document.getElementById('link_menu');
 const html = document.getElementsByTagName('html')[0];
 const navBar = document.getElementById('nav_bar');
 const list = document.getElementById('nav_ul');
