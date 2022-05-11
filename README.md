@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is my microverse capstone project. the topic of this project is about creating a website that's dynamic and interactive, it's a website for an online consulant office of personnal development opened for everybody desiring to be the best version of themselves. 
+> This is my microverse capstone project. the topic of this project is about creating a website that's dynamic and interactive, it's a website for an online consulant office of personnal development opened for everybody desiring to be the best version of themselves. This website has actually two pages the home one and the about one it also have two versions, the desktop and the mobile one, for this last I implemented an hamburger button and made it dynamic using javascript which will be displaying the nav links instead of overcrowding the page knowing that the mobile versions have small screen sizes.
 
 ## Built With
 
@@ -51,12 +51,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@haroldmud](https://hargithub.com/haroldmud)
 - Twitter: [@mudosaharold](https://twitter.com/MudosaHarold)
 - LinkedIn: [@haroldmudosa](https://www.linkedin.com/in/harold-mudosa-40124021b/)
-
-<!-- 👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
 ## 🤝 Contributing
 
