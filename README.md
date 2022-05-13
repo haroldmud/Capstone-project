@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is my microverse capstone project. the topic of this project is about creating a website that's dynamic and interactive, it's a website for an online consulant office of personnal development opened for everybody desiring to be the best version of themselves. This website has actually two pages the home one and the about one it also have two versions, the desktop and the mobile one, for this last I implemented an hamburger button and made it dynamic using javascript which will be displaying the nav links instead of overcrowding the page knowing that the mobile versions have small screen sizes.
+> This is my microverse capstone project. the topic of this project is about creating a dynamic and interactive website, it's a project for an online consulant office of personnal development built with HTML, CSS and Javascript allowing its users to have an easy access to personnal coaches no matter where they're located.
 
 ## Built With
 
