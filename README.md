@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> This is my microverse capstone project. the topic of this project is about creating a dynamic and interactive website, it's a project for an online consulant office of personnal development built with HTML, CSS and Javascript allowing its users to have an easy access to personnal coaches no matter where they're located.
+> This is my microverse capstone project. the topic of this project is about creating a dynamic and interactive website, it's a project for an online consultant office of personal development built with HTML, CSS and Javascript allowing its users to have an easy access to personnal coaches no matter where they're located.
 
 ## Built With
 
